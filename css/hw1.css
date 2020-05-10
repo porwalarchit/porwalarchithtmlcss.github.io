@@ -1,0 +1,98 @@
+body{
+  margin:10px;
+  padding: 5px;
+}
+header{
+  background: #a5a4a4 url("../images/flywheel.jpg") no-repeat;
+  background-size:cover ;
+}
+h1{
+  font-size: 30px;
+  color: #ffffff;
+  text-transform:uppercase;
+  position: relative;
+  top: 10px;
+  left:40%;
+}
+
+nav a{
+  text-decoration: none;
+  display: inline-block;
+  margin-top:10px;
+  margin-left: 10%;
+  border-radius: 5px;
+  padding: 20px 60px;
+  margin-top: 1%;
+  margin-bottom: 3%;
+  text-align: center;
+  background-color: #ffffff5e;  
+}
+.left{
+  background-color: #76761b;
+  float :left;
+  width: 20%;
+  padding-bottom: 100px; 
+  margin:0 auto;
+
+}
+.left img{
+  display: block;
+  width: 80%;
+  border:2px solid #000000;
+  margin: 10%;  
+  
+}
+.right{ 
+  float: right;
+  width: 78%;
+  margin-left: 3px;
+}
+.active{
+  background-color: #ffffff;
+}
+table{
+  font-family: "Times New Roman",arial,sans-serif;
+  font-size: 17px;
+  font-weight: 500px;
+  line-height: 17px;
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+th{
+  background:#82a730;
+  background:-webkit-linear-gradient(to bottom,#82a730,#3d6f16);
+  background:-moz-linear-gradient(to bottom,#82a730,#3d6f16);
+  background:-o-linear-gradient(to bottom,#82a730,#3d6f16);
+  background:linear-gradient(to bottom,#82a730,#3d6f16);
+  border:1px solid #efff00c7;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-width: 3px;
+  color:#FFFFFF;
+  padding:8px;
+}
+tr{
+  opacity: 0.8;
+  transition: .5s linear;
+}
+tr:hover{
+  opacity:1;
+  text-shadow:5px 8px 5px #000000;
+}
+tr>th,tr>td{
+  text-align: center;
+}
+tr>th:first-child,tr>td:first-child{
+  text-align: left;
+}
+td{
+  padding: 7px;
+  color:#000000;
+  background: #18e60a73;
+  background:-webkit-linear-gradient(to bottom,#18e60a8c,#18e60a6b);
+  background:-moz-linear-gradient(to bottom,#18e60a8c,#18e60a6b);
+  background:-o-linear-gradient(to bottom,#18e60a8c,#18e60a6b);
+  background:linear-gradient(to bottom,#18e60a8c,#18e60a6b);
+  border-radius:2px;
+}
